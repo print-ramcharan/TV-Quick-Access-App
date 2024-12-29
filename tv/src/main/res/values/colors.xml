@@ -1,0 +1,11 @@
+<resources>
+    <!-- Primary color for buttons -->
+    <color name="colorPrimary">#FF6200EE</color>
+    <color name="colorPrimaryDark">#FF3700B3</color>
+
+    <!-- Accent color for highlighting -->
+    <color name="colorAccent">#FF018786</color>
+
+    <!-- For button background color -->
+    <color name="colorButtonBackground">#FFFFFF</color>
+</resources>

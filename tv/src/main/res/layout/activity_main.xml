@@ -1,0 +1,81 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border_background"
+    tools:context=".MainActivity">
+
+<ImageButton
+android:id="@+id/imageButton1"
+android:layout_width="0dp"
+android:layout_height="0dp"
+android:layout_marginTop="16dp"
+android:layout_marginStart="16dp"
+android:layout_gravity="top|start"
+android:background="@drawable/image_border_selector"
+android:contentDescription="Image 1"
+    android:scaleType="centerCrop"
+    android:src="@drawable/ibomma"
+    android:onClick="onImageButtonClick"
+    android:focusable="true"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintWidth_percent="0.45"
+    app:layout_constraintHeight_percent="0.45" />
+
+<ImageButton
+android:id="@+id/imageButton2"
+android:layout_width="0dp"
+android:layout_height="0dp"
+android:layout_marginTop="16dp"
+android:layout_marginEnd="16dp"
+android:layout_gravity="top|end"
+android:background="@drawable/image_border_selector"
+android:contentDescription="Image 2"
+    android:scaleType="centerCrop"
+    android:src="@drawable/popcornflix"
+    android:onClick="onImageButtonClick"
+    android:focusable="true"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintWidth_percent="0.45"
+    app:layout_constraintHeight_percent="0.45" />
+
+<ImageButton
+android:id="@+id/imageButton3"
+android:layout_width="0dp"
+android:layout_height="0dp"
+android:layout_marginBottom="16dp"
+android:layout_marginStart="16dp"
+android:layout_gravity="bottom|start"
+android:background="@drawable/image_border_selector"
+android:contentDescription="Image 3"
+    android:scaleType="centerCrop"
+    android:src="@drawable/tubi"
+    android:onClick="onImageButtonClick"
+    android:focusable="true"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintWidth_percent="0.45"
+    app:layout_constraintHeight_percent="0.45" />
+
+<ImageButton
+android:id="@+id/imageButton4"
+android:layout_width="0dp"
+android:layout_height="0dp"
+android:layout_marginBottom="16dp"
+android:layout_marginEnd="16dp"
+android:layout_gravity="bottom|end"
+android:background="@drawable/image_border_selector"
+android:contentDescription="Image 4"
+    android:scaleType="centerCrop"
+    android:focusable="true"
+    android:src="@drawable/ic_image1"
+    android:onClick="onImageButtonClick"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintWidth_percent="0.45"
+    app:layout_constraintHeight_percent="0.45" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,4 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#FFFFFF" /> <!-- Black border -->
+    <stroke android:color="#000000" android:width="10dp" /> <!-- Thick black border -->
+</shape>
